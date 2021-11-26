@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrudLinq", "CrudLinq\CrudLinq.csproj", "{9007EB1D-62B5-462B-BA2E-1E1490582D4A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9007EB1D-62B5-462B-BA2E-1E1490582D4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9007EB1D-62B5-462B-BA2E-1E1490582D4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9007EB1D-62B5-462B-BA2E-1E1490582D4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9007EB1D-62B5-462B-BA2E-1E1490582D4A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {401967C7-AB70-4229-9443-22185BC8CFAE}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,10 @@
+C:\Users\pedro\source\repos\CrudLinq\CrudLinq\bin\Debug\CrudLinq.exe.config
+C:\Users\pedro\source\repos\CrudLinq\CrudLinq\bin\Debug\CrudLinq.exe
+C:\Users\pedro\source\repos\CrudLinq\CrudLinq\bin\Debug\CrudLinq.pdb
+C:\Users\pedro\source\repos\CrudLinq\CrudLinq\obj\Debug\CrudLinq.csproj.AssemblyReference.cache
+C:\Users\pedro\source\repos\CrudLinq\CrudLinq\obj\Debug\CrudLinq.Form1.resources
+C:\Users\pedro\source\repos\CrudLinq\CrudLinq\obj\Debug\CrudLinq.Properties.Resources.resources
+C:\Users\pedro\source\repos\CrudLinq\CrudLinq\obj\Debug\CrudLinq.csproj.GenerateResource.cache
+C:\Users\pedro\source\repos\CrudLinq\CrudLinq\obj\Debug\CrudLinq.csproj.CoreCompileInputs.cache
+C:\Users\pedro\source\repos\CrudLinq\CrudLinq\obj\Debug\CrudLinq.exe
+C:\Users\pedro\source\repos\CrudLinq\CrudLinq\obj\Debug\CrudLinq.pdb

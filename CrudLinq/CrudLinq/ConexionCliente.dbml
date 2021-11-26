@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Clientes" Class="ConexionClienteDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-MA201T6;Initial Catalog=Clientes;User ID=sa" SettingsObjectName="CrudLinq.Properties.Settings" SettingsPropertyName="ClientesConnectionString" Provider="System.Data.SqlClient" />
+  <Function Name="dbo.ActualizarCliente" Method="ActualizarCliente">
+    <Parameter Name="codigo" Type="System.Int32" DbType="Int" />
+    <Parameter Name="nombre" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="apePaterno" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="apeMaterno" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="telefono" Type="System.String" DbType="VarChar(50)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.BuscarCliente" Method="BuscarCliente">
+    <Parameter Name="nombre" Type="System.String" DbType="VarChar(50)" />
+    <ElementType Name="BuscarClienteResult">
+      <Column Name="idCli" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="nombreCli" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="apellidoPaternoCli" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="apellidoMaternoCli" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="telefonoCli" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.EliminarCliente" Method="EliminarCliente">
+    <Parameter Name="codigo" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.InsertarCliente" Method="InsertarCliente">
+    <Parameter Name="nombre" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="apePaterno" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="apeMaterno" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="telefono" Type="System.String" DbType="VarChar(50)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.ListarCliente" Method="ListarCliente">
+    <ElementType Name="ListarClienteResult">
+      <Column Name="idCli" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="nombreCli" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="apellidoPaternoCli" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="apellidoMaternoCli" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="telefonoCli" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+</Database>
